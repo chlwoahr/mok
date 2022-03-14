@@ -21,9 +21,8 @@ public class TodayExample {
 		Scanner sc = new Scanner(System.in);
 		String n,p;
 		int a;
-		double k,m, weight , realweight;
-		weight = 67.5;
-		realweight = 69.3;
+		double k,m,jj;
+		
 		System.out.println("이름은...");
 		n = sc.nextLine();
 		System.out.println("연락처 입력...");
@@ -39,13 +38,9 @@ public class TodayExample {
 		System.out.println("나이:"+a);
 		System.out.println("키:"+k+"cm");
 		System.out.println("몸무게:"+m);
-		if(m>(k-100) *0.9) {
-			System.out.println("과체중입니다");
-		}
-		else {
-			System.out.println("표준입니다");
-		}
-		if(weight+5>realweight&&weight-5<realweight) {
+		jj = ((k-100)*0.9) ;
+				
+		if(jj+5>m&&jj-5<m) {
 			System.out.println("정상");
 		}
 		else {
