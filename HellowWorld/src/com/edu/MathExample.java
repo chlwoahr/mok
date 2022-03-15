@@ -1,28 +1,23 @@
 package com.edu;
 
 import java.util.Scanner;
+
 import java.util.function.BiConsumer;
 
 public class MathExample {
-//4) MathExample Å¬·¡½º »ı¼ºÇØ¼­ 
-//2°³ÀÇ ¼ö¸¦ ÀÔ·Â¹Ş¾Æ¼­
-//i) µÎ ¼öÀÇ ÇÕÀ» Ãâ·Â
-//ii)µÎ ¼öÀÇ Â÷¸¦ Ãâ·Â
-//iii) µÎ¼öÀÇ °öÀ» Ãâ·Â
-//iv) µÎ¼öÀÇ ¸òÀ» Ãâ·Â
-//v) ³ª´« ³ª¸ÓÁö¸¦ Ãâ·ÂÇÏµµ·Ï ±â´É ±¸Çö
+
 	public static void main(String[] args) {
 		int a,b;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Ã¹¹øÂ° ¼ö");
+		System.out.println("ì²«ë²ˆì§¸ ìˆ«ì");
 		a = sc.nextInt();
-		System.out.println("µÎ¹øÂ° ¼ö");
+		System.out.println("ë‘ë²ˆì§¸ ìˆ«ì");
 		b = sc.nextInt();
-		System.out.println("µÎ ¼öÀÇ ÇÕ:"+(a+b));
-		System.out.println("µÎ ¼öÀÇ Â÷:"+(a-b));
-		System.out.println("µÎ ¼öÀÇ °ö:"+(a*b));
-		System.out.println("µÎ ¼öÀÇ ¸ò:"+(a/b));
-		System.out.println("µÎ ¼öÀÇ ³ª¸ÓÁö:"+(a%b));
+		System.out.println("í•©"+(a+b));
+		System.out.println("ì°¨:"+(a-b));
+		System.out.println("ê³±:"+(a*b));
+		System.out.println("ëª«:"+(a/b));
+		System.out.println("ë‚˜ë¨¸ì§€:"+(a%b));
 		
 		
 		
