@@ -16,7 +16,7 @@ public class Car {
 		this.speed += 10;
 	}
 	public void breakSpeed() { // 0km보다 안떨어지도록 코드넣기
-		if(this.speed - 10 > 0) {
+		if(this.speed - 10 < 0) {
 			System.out.println("멈춰");
 			return;
 			
