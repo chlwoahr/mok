@@ -2,7 +2,7 @@ package com.dev;
 
 import java.util.Scanner;
 
-public class ForExample5 {
+public class Work1 {
 
 	public static void main(String[] args) {
 		int num1,num2,a = 0;
