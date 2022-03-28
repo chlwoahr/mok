@@ -7,6 +7,8 @@ public class User {
 	private String userlv;
 	private String usernu;
 	private int userpo;
+	
+	
 	public String getUserid() {
 		return userid;
 	}
